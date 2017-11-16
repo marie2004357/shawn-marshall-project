@@ -1,0 +1,142 @@
+/***************************
+page styles
+****************************/
+
+body{
+    background: #a7a9aa;
+}
+
+body{
+
+    color:white;
+}
+
+body{
+  font-size:20px;   
+
+}
+
+body{
+    text-align:center;    
+  
+  }
+
+/***************************
+h1 header
+****************************/
+h1{
+    font-family: 'Arizonia', cursive;
+    font-size:100px; 
+    text-align:left;
+    height: 25%;
+    width: 100%;
+    margin: 40px 0 0 0 ;
+    background-color:red;
+    padding: 0 20px 20px 0;
+}
+
+h1{
+    text-shadow:6px 8px gray
+}
+
+/***************************
+nav
+****************************/
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+float: left; 
+}
+
+a { 
+display: white;
+padding: 8 px;
+background-color: #ffffff oooo;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float:right;
+   
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+button {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    
+  }
+/*
+  p.content{
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}*/
+
+/*media queries to control visuals on different size screens*/
+@media only screen and (max-width: 800px) {
+    h1{
+        font-family: 'Arizonia', cursive;
+        font-size:75px; 
+        text-align:left;
+        height: 25%;
+        width: 100%;
+        margin: 40px 0 0 0 ;
+        background-color:red;
+        padding: 0 20px 20px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    h1{
+        font-family: 'Arizonia', cursive;
+        font-size:75px; 
+        text-align:left;
+        height: 25%;
+        width: 100%;
+        margin: 40px 0 0 0 ;
+        background-color:red;
+        padding: 0 20px 20px 0;
+    }
+}
+@media only screen and (max-width: 200px) {
+    h1{
+        font-family: 'Arizonia', cursive;
+        font-size:75px; 
+        text-align:left;
+        height: 25%;
+        width: 100%;
+        margin: 40px 0 0 0 ;
+        background-color:red;
+        padding: 0 20px 20px 0;
+    }
+}
